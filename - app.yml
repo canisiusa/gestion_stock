@@ -1,0 +1,27 @@
+- app
+  - Controllers
+    - AuthController.php
+    - ProductController.php
+  - Models
+    - User.php
+  - Views
+    - home.php
+  - Domain
+    - Entities
+      - User.php
+    - ValueObjects
+      - Email.php
+      - Address.php
+    - Aggregates
+      - OrderAggregate.php
+    - Services
+      - UserService.php
+- config
+  - database.php
+  - routes.php
+  - seeder.php
+- index.php
+- storage
+- public
+  - css
+  - js
